@@ -30,10 +30,10 @@ Expenses Analysis
 3. SQL Highlights
 Below is a snippet (not the full code) illustrating the data transformation logic. The complete script can be found in Final Project (Supply Chain).sql.
 
-sql
-Copy
-Edit
+**sql
+
 -- Example: Removing text from SKU and keeping only digits
+
 UPDATE [supply_chain_data].[dbo].[supply_chain_data]
 SET SKU = CAST(SUBSTRING(SKU, PATINDEX('%[0-9]%', SKU), LEN(SKU)) AS INT);
 
@@ -46,10 +46,15 @@ ALTER TABLE supply_chain_data ADD Profit_Margin FLOAT;
 
 UPDATE supply_chain_data
 SET Profit_Margin = ((Revenue_generated - Manufacturing_costs) / NULLIF(Revenue_generated,0)) * 100;
+**
+
+
 Why SQL?
 Data Cleaning: Removing outliers, invalid entries, and null values.
 Data Transformation: Calculating new metrics (Profit, Stock Turnover Ratio, etc.).
 Performance: Creating indexes for faster queries.
+
+
 4. Dashboard Pages & Charts
 Each page focuses on a different aspect of the supply chain:
 
