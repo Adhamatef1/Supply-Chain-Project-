@@ -1,11 +1,16 @@
 Supply Chain Dashboard
+
+
 A project focused on analyzing and optimizing a cosmetics supply chain in India. The dashboard provides multiple pages covering shipping analysis, defect analysis, warehouse management, and expense tracking—all powered by SQL for data cleaning and Power BI for interactive visualizations.
+
 
 1. Project Overview
 Objective: Offer a comprehensive view of the supply chain’s performance, from shipping carriers to defect rates, stock levels, and expenses.
 Technologies:
 SQL: Used to clean and transform data, remove outliers, add new columns (e.g., Profit Margin), and improve performance with indexing.
 Power BI: Utilized to create interactive dashboards with charts, slicers, and filters for better decision-making.
+
+
 2. How to Run the Project
 Download the files:
 Final Project (Supply Chain).pbix (Power BI file)
@@ -20,6 +25,8 @@ Shipping Analysis
 Defect Analysis
 Warehouse Analysis
 Expenses Analysis
+
+
 3. SQL Highlights
 Below is a snippet (not the full code) illustrating the data transformation logic. The complete script can be found in Final Project (Supply Chain).sql.
 
@@ -46,8 +53,10 @@ Performance: Creating indexes for faster queries.
 4. Dashboard Pages & Charts
 Each page focuses on a different aspect of the supply chain:
 
+
 4.1 Home Page
 A landing page to welcome users or display a project logo/title. You can add navigation buttons or a brief introduction here. Currently, it may be minimal or blank.
+
 
 4.2 Overview Page
 Goal: Present a high-level summary of the most important KPIs.
@@ -61,6 +70,8 @@ Treemap – Customer Segments: Segments customers into “High-Value” vs. “G
 Gauge – In Stock: Illustrates current stock availability.
 Bar Chart – Revenue by Product: Quick comparison of revenue for each product category (skincare, haircare, cosmetics).
 Line Chart – Lead Times by Location: Highlights shipping or production lead times across major cities (Delhi, Mumbai, etc.).
+
+
 4.3 Shipping Analysis
 Goal: Deep-dive into carriers, transportation modes, and shipping costs.
 
@@ -72,6 +83,8 @@ Sankey Diagram – Carriers & Modes: Visualizes the flow from total orders to ca
 Bar Chart – Average Lead Times by Product: Compares shipping times for different product lines.
 Map – Shipping Locations: Geographical distribution of shipments across Indian cities.
 Line Chart – Shipping Costs by Order Quantity: Analyzes how shipping costs scale with order volumes.
+
+
 4.4 Defect Analysis
 Goal: Monitor quality control and identify problem areas.
 
@@ -81,6 +94,8 @@ Bar Chart – Average Defect Rate by Supplier: Which supplier has the highest de
 Bar Chart – Defect Rate by Product Type: Compare cosmetics vs. haircare vs. skincare.
 Table – Defect Rate by Product & Supplier: Detailed matrix for pinpointing issues.
 Line Chart – Average Defect Rate by Lead_time: Investigates if longer lead times correlate with higher defects.
+
+
 4.5 Warehouse Analysis
 Goal: Evaluate stock levels, turnover, and overall warehouse efficiency.
 
@@ -94,6 +109,8 @@ Pie Chart – Stock Turnover Ratio per Category: Which categories move faster?
 Map – Stock Level by Location: Check how stock is distributed geographically.
 Bar Chart – Lead Time Variance per Supplier: Highlights which supplier deviates most from expected lead times.
 Line/Scatter – Order Delay Risk vs. Inventory Health Score: Relationship between risk of delay and inventory health.
+
+
 4.6 Expenses Analysis
 Goal: Understand where money is spent and how it affects profitability.
 
