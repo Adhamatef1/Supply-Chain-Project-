@@ -146,14 +146,6 @@ Predictive Analytics: Use ML models to forecast defects, lead times, or costs.
 More Detailed Cost Breakdown: E.g., separate overhead costs, marketing, or administrative expenses.
 
 
-7. Collaborators
-Special thanks to the following collaborators who worked on this project:
-@Adhamatef1
-@adham-osama-8762
-@DrIbrahimFawy
-@manarmohamed44
-@Mohamedsaifnafea
-
 Enjoy Exploring!
 By combining SQL for robust data cleaning and Power BI for rich visualizations, this dashboard helps decision-makers pinpoint inefficiencies, reduce defects, optimize shipping, and manage warehouse stock effectively.
 
