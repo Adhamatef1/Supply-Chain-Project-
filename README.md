@@ -14,7 +14,7 @@ Power BI: Utilized to create interactive dashboards with charts, slicers, and fi
 2. How to Run the Project
    
 Download the files:
-Final Project (Supply Chain) V3.5.pbix (Power BI file)
+Final Project (Supply Chain) V4.pbix (Power BI file)
 Final Project (Supply Chain).xlsx (Excel data) or connect directly to your SQL database if applicable.
 Place them in the same folder on your local machine.
 Open the .pbix file in Power BI Desktop.
